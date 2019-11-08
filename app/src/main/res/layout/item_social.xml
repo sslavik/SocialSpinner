@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/ivSocial"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:contentDescription="TODO"
+        android:padding="8dp"
+        app:srcCompat="@drawable/ic_google_brands" />
+
+    <TextView
+        android:id="@+id/tvSocial"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="11dp"
+        android:text="Texto Ejemplo" />
+</LinearLayout>
